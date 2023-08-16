@@ -4,6 +4,6 @@
   gather_facts: true
 
   tasks:
-    - name: test a netcommon thingy
+    - name: Test a Netcommon-Ping
       ansible.netcommon.net_ping:
-        dest: 10.10.10.10
+        dest: 10.10.10.10 ##--Change ip
