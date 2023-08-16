@@ -1,1 +1,4 @@
-fgsdg
+---
+
+collections:
+  - name: ansible.netcommon
