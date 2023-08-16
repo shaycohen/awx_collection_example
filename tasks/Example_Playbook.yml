@@ -3,6 +3,6 @@
   hosts: localhost
   gather_facts: true
 
-  - name: test a posix thingy
-    ansible.posix.selinux:
-      state: diabled
+  - name: test a netcommon thingy
+    ansible.netcommon.net_ping:
+      dest: 10.10.10.10
