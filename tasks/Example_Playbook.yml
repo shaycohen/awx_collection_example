@@ -2,6 +2,9 @@
 - name: netcommon test
   hosts: ansible-1
   gather_facts: true
+  vars:
+    ansible_connection: local
+    ansible_network_os: network_cli
 
   tasks:
     - name: Test a Netcommon-Ping
