@@ -1,6 +1,6 @@
 ---
 - name: netcommon test
-  hosts: localhost
+  hosts: 3.12.166.161
   gather_facts: true
 
   tasks:
