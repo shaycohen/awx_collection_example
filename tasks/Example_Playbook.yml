@@ -6,4 +6,4 @@
   tasks:
     - name: Test a Netcommon-Ping
       ansible.netcommon.net_ping:
-        dest: 10.10.10.10 ##--Change ip
+        dest: 3.128.206.73 ##--Change ip
