@@ -1,0 +1,9 @@
+---
+- name: netcommon test
+  hosts: localhost
+  gather_facts: true
+
+  tasks:
+    - name: Test a Netcommon-Ping
+      ansible.netcommon.net_ping:
+        dest: 3.128.206.73 ##--Node1 IP
