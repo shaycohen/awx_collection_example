@@ -1,6 +1,6 @@
 ---
 - name: netcommon test
-  hosts: 3.12.166.161
+  hosts: ansible-1
   gather_facts: true
 
   tasks:
